@@ -1,0 +1,15 @@
+3 Capas Principales
+	Estructura - (HTML)
+	Presentacion - (CSS)
+	Funcionalidad (Comportamiento) (JavaScript)
+
+
+HTML
+	Etiquetas
+	Hipervinculos
+		Enlazan con secciones dentro de una misma pagina
+		Enlazan con sitios web externos
+		Enlazan con paginas dentro de tu mismo sitio web
+Tipos de Rutas
+	Rutas Locales (Relativas)
+	Rutas Absolutas
