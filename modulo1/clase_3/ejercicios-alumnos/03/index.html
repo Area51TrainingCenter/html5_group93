@@ -5,6 +5,69 @@
   <title>Ejercicio 2</title>
 </head>
 <body>
-  
+  <header>
+    <h1>Logo</h1>
+    <nav>
+      <a href="#">Inicio</a>
+      <a href="#">Quienes Somos</a>
+      <a href="#">Portafolio</a>
+      <a href="#">Blog</a>
+      <a href="#">Contacto</a>
+    </nav>
+  </header>
+  <div id="banner">
+    <h2>Acá va un título</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga laborum ad tenetur impedit, voluptatem, doloribus totam itaque eius tempora ea rem?Officiis nobis sit ex voluptatum, saepe modi veniam quam.</p>
+    <a href="#">Link 1</a> <a href="#">Link 2</a>
+    <figure>
+      <img src="images/dogs.jpg">
+    </figure>
+  </div>
+  <section id="registro">
+    <h3>Mi Formulario</h3>
+    <form>
+      <div>
+        <label>Nombre</label>
+        <input type="text" placeholder="Escribe tu nombre"/>
+      </div>
+      <div>
+        <label>Email</label>
+        <input type="email" placeholder="Escribe tu correo"/>
+      </div>
+      
+      <div>
+        <p>Como te enteraste de nosotros</p>
+        <select>
+          <option value="internet">Internet</option>
+          <option value="periodico">Periodico</option>
+          <option value="television">Television</option>
+          <option value="radio">Radio</option>
+        </select>
+        <p>¿Nos visitarías de nuevo?</p>
+        <label for="si">
+          <input type="radio" /> Si
+        </label>
+
+        <label for="si">
+          <input type="radio" /> No
+        </label>
+
+        <label for="quiza">
+          <input type="radio" /> Quiza
+        </label>
+
+        <p>Comentario</p>
+        <textarea name="comentarios" cols="30" rows="10"></textarea>
+        <p>
+          <input type="checkbox" />
+          Inscribeme para recibir correos con novedades
+        </p>
+        <input type="submit" value="Enviar tu crónica" />
+      </div>
+    </form>
+  </section>
+  <footer>
+    <p>Esto es un footer. Todos los derechos reservados &copy;</p>
+  </footer>
 </body>
 </html>
