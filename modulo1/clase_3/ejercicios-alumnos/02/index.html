@@ -5,6 +5,66 @@
   <title>Ejercicio 1: Formulario de Perfil</title>
 </head>
 <body>
-  
+  <header>
+    <h1>Mi sitio con formularios</h1>
+    <ul>
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Contacto</a></li>
+    </ul>
+  </header>
+  <div id="banner">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <strong>Numquam magnam</strong>, ipsam consectetur ex facere consequuntur. Nihil voluptatem, <em>voluptatibus facilis</em> quis, numquam minima mollitia adipisci, odio culpa, ratione amet ab eligendi!</p>
+    <figure>
+      <img src="images/gatito.jpg" width="500"/>
+    </figure>
+    <a href="#">Click aqui</a>
+  </div>
+
+  <section id="perfil">
+    <h2>Mi Perfil</h2>
+    <p><strong>Hola, edita aqui toda tu información</strong></p>
+    <form>
+      <fieldset>
+        <legend>Datos de tu cuenta</legend>
+        <div>
+          <label for="email" placeholder="ejemplo@correo.com">Email</label>
+          <input type="email">
+        </div>
+        <div>
+          <label for="password">Contraseña</label>
+          <input type="password" placeholder="escribe tu contraseña">
+        </div>
+        <div>
+          <label for="nombre">Nombre</label>
+          <input type="text" placeholder="escribe tu nombre">
+        </div>
+        <div>
+          <label for="apellido">Apellido</label>
+        <input type="text" placeholder="escribe tu apellido">
+      </div>
+
+      <input type="submit" value="enviar" />
+      </fieldset>
+
+      <fieldset>
+        <legend>Configuración de Privacidad</legend>
+        
+        <label for="contraseña-actual">Contraseña Actual</label>
+        <input type="password" placeholder="escribe tu contraseña">
+        
+        <label for="contraseña-nueva">Contraseña Nueva</label>
+        <input type="password" placeholder="escribe tu contraseña">
+        
+        <label for="contraseña-confirmada">Confirmar Nueva Contraseña</label>
+        <input type="password" placeholder="escribe tu contraseña">
+
+        <input type="image" src="images/send-button.png" width="50">
+      </fieldset>
+    </form>
+  </section>
+  <footer>
+    <p>Esto es un footer. Todos los derechos reservados</p>
+  </footer>
 </body>
 </html>
