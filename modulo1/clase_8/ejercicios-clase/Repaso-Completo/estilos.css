@@ -93,3 +93,88 @@ label, input {
   display: block;
   margin: 15px 0;
 }
+
+/* Selectores 
+  
+  De Tipo: Nombre del elemento HTML;
+  De Clase: El valor del atributo class;
+  De Id: El valor del atributo id;
+  Descendencia: La relacion familiar entre elementos HTML;
+
+ */
+
+ /* Especificacion 
+
+ #link {
+  background-color: red;
+ }
+
+ 
+
+ .botones a {
+  background: yellow;
+ }
+
+ 
+
+.link {
+  background: purple;
+}
+
+a{
+  background-color: blue;  
+}
+
+*/
+
+ a:hover, button:hover {
+  background-color: transparent;
+  color: #5748ca;
+ }
+
+ a:active, a.active {
+  background-color: transparent;
+  color: #5748ca;
+ }
+
+ a.active.link {
+  background-color: green;
+ }
+
+ .botones h1:hover {
+  font-size: 2em;
+  color: red;
+ }
+/*
+ input:focus {
+
+ }
+*/
+ #usuario:focus {
+  border: 6px solid purple;
+  outline: none;
+ }
+
+ ::-webkit-input-placeholder {
+  color: green;
+ }
+
+ #usuario:focus::-webkit-input-placeholder {
+  color:black;
+  font-size: 1.5em;
+ }
+
+  #usuario:focus::-moz-input-placeholder {
+  color:black;
+  font-size: 1.5em;
+ }
+
+ #usuario:focus::-ms-input-placeholder {
+  color:black;
+  font-size: 1.5em;
+ }
+
+  #usuario:focus::-o-input-placeholder {
+  color:black;
+  font-size: 1.5em;
+ }

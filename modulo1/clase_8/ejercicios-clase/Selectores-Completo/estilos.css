@@ -1,0 +1,101 @@
+* {
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ccc;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+h1 {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.container {
+	max-width: 1024px;
+	width: 100%;
+	margin: 30px auto;
+}
+
+.padre {
+	background: purple;
+	color: white;
+	width: 700px;
+	margin: 25px auto;
+	padding: 40px;
+}
+
+/* Selectores Hijos 
+
+div.padre > h2 {
+	background-color: blue;
+}
+
+
+div > h2 {
+	background-color: red;
+}
+
+*/
+
+/* 
+	Selectores Hermanos
+
+
+
+div.padre p ~ p {
+	background-color: yellow;
+	color: black;
+}
+
+
+
+div.padre p + p {
+	background-color: yellow;
+	color: black;
+}
+*/
+
+/* 
+	Selectores Atributos
+
+*/
+
+[id]{
+	background: blue;
+}
+
+[class]{
+	background: blue;
+}
+
+[class="padre"]{
+	background: red;
+}
+
+[type]{
+	background: green;
+}
+
+[type="password"] {
+	background:skyblue;
+}
+
+[type="password"]:focus{
+	background:purple;
+}
+
+input[type="password"] {
+	background: orange;
+}
