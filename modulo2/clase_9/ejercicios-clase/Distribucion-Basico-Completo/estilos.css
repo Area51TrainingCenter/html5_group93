@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.caja {
+	width: 200px;
+	height: 200px;
+	background:red;
+	margin: 30px 0;
+	color: white;
+}
+
+.alineamiento-display .caja.caja3 {
+	height: 40px;	
+}
+
+/* Alineando cajas usando display */
+
+.alineamiento-float {
+	background: purple;
+	overflow: hidden;
+}
+
+.alineamiento-display .caja {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: -4px;
+}
+
+/* Alineando cajas usando float */
+
+.alineamiento-float .caja {
+	float: right;
+	width: 400px;
+}
+
+.alineamiento-float .caja.caja3 {
+	height: 50px;
+}
+
+.alineamiento-float .caja.caja4 {
+	clear: both;
+}
+
+/* Alineando img usando float */
+
+.float-imagen {
+	background-color: green;
+	margin: 40px 0;
+}
+
+.float-imagen img {
+	float: left;
+}
