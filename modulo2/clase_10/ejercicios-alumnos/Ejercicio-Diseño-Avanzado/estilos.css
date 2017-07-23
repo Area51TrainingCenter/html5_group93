@@ -1,0 +1,32 @@
+* {
+  margin:0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  background: black;
+}
+
+header a {
+  background: green;
+}
+
+.logo {
+  background: red;
+  width: 49%;
+  /*display: inline-block;
+  float: left;*/
+}
+
+.menu {
+  background: purple;
+  width: 50%;
+  /*display: inline-block;
+  float: right;*/
+}
