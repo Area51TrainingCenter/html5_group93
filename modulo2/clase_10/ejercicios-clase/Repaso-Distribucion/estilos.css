@@ -1,3 +1,11 @@
+/* 
+  Distrubucion de Elementos Basica
+
+    1. Alineamiento Horizontal
+    2. Posicionamiento
+
+*/
+
 * {
   margin:0;
   padding:0;
@@ -35,4 +43,36 @@ section {
   height: 350px;
   background: #ededed;
   margin: 20px 1.5em;
+}
+
+.tecnica1 .caja {
+  display: inline-block;
+}
+
+.tecnica2 {
+  overflow: hidden;
+}
+
+.tecnica2 .caja {
+  float: left;
+}
+
+.tecnica2 .caja.caja3 {
+  clear:both;
+}
+
+.about {
+  /*
+  overflow: hidden;
+  */
+}
+
+.col {
+  width: 40%;
+  float: left;
+  background: red;
+}
+
+.contact {
+  clear: both;
 }

@@ -8,13 +8,23 @@
 </head>
 <body>
   <header>
-  	<h1>Logo</h1>
-  	<nav>
-  		<a href="#">Inicio</a>
-  		<a href="#">Portafolio</a>
-  		<a href="#">Blog</a>
-  		<a href="#">Contacto</a>
-  	</nav>
+    <div class="container">
+      <h1>Logo</h1>
+      <!--<nav>
+        <a href="#">Inicio</a>
+        <a href="#">Portafolio</a>
+        <a href="#">Blog</a>
+        <a href="#">Contacto</a>
+      </nav>-->
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Portafolio</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
   <div class="banner">
   	<div class="banner-desc">
@@ -23,6 +33,30 @@
   		<a href="#">Button 1</a> <a href="#">Button 2</a>
   	</div>
   </div>
+  <main>
+    <section class="about container">
+    <div class="col primaria">
+      <h2>Titulo</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae vero ratione nulla obcaecati necessitatibus at magni, molestias, dolores sed incidunt veritatis ea vitae ipsam eos magnam. Obcaecati architecto, quibusdam placeat!</p>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, veritatis, inventore! Repudiandae praesentium iste et minus quasi itaque ratione sapiente excepturi id dolorem. Ullam eius quaerat harum debitis accusantium tenetur!</p>      
+    </div>
+    <div class="col secundaria">
+      <img src="https://i2.cdn.turner.com/cnnnext/dam/assets/140926165711-john-sutter-profile-image-large-169.jpg" alt="">
+    </div>
+  </section> 
+
+  <section class="contact container">
+    <form>
+      <div>
+        <label for="usuario">Usuario</label>
+        <input type="text" placeholder="usuario">
+      </div>
+
+      <input type="submit" value="enviar">
+    </form>
+  </section>   
+  </main>
   <footer>
   	<p>Esto es un footer. Todos los derechos reservados &copy</p>
   </footer>
