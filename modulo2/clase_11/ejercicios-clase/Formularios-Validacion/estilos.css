@@ -4,17 +4,6 @@
   box-sizing: border-box;
 }
 
-/* 
-Las pseudo clases contienen una jerarquía de especificación equivalente a una clase */
-
-:root {
-  background: black;
-}
-
-html {
-  background: green;
-}
-
 body {
   background:#556370;
   color:white;
@@ -98,47 +87,3 @@ input {
   background:white none;
 }
 
-/* Clase comienza acá */
-
-input[type="submit"]:disabled {
-  background:#ededed;
-  color: black;
-}
-
-input[type="submit"]:disabled:hover {
-  background:#ededed;
-  color: black;
-}
-
-/*
-.form-required:required {
-  background:pink url('images/icon-x.svg') no-repeat 5px 16px;
-  background-size: 25px;
-}
-*/
-.form-required:invalid {
-  background:blue url('images/icon-x.svg') no-repeat 5px 16px;
-  background-size: 25px;
-}
-
-.form-required:valid {
-  background: white url('images/check.svg') no-repeat 8px 18px;
-  background-size: 20px;
-}
-
-input:optional {
-  background: purple;
-}
-
-.checkbox + label {
-  color: #ccc;
-  font-style: italic;
-} 
-.checkbox:checked + label {
-  color: #f00;
-  font-style: normal;
-} 
-
-.enable:checked ~ input[type='submit']:disabled {
-  background: red;  
-} 
