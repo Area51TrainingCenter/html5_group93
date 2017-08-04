@@ -5,6 +5,7 @@
 }
 
 body {
+  background: #4D2B25;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -17,6 +18,11 @@ body {
 header {
   background:#65DCB4;
   padding: 15px 0;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 3em;
   text-align: center;
 }
 
