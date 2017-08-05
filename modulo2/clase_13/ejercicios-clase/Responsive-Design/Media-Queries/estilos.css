@@ -125,3 +125,32 @@ header .mobile-nav a {
   background: #03a9f4;
   color: white;
 }
+
+
+/* Media Queries */
+
+@media (max-width: 768px){
+  header .menu {
+    display: none;
+  }
+  header .mobile-nav a {
+    display: block;
+  }
+
+  .services {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 480px){
+  body {
+    background: yellow;
+  }
+
+  .services {
+    width: 100%;
+  }
+}

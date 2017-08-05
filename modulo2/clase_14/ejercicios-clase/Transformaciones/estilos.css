@@ -47,6 +47,21 @@ header {
 
 .galeria-col img {
   width: 100%;
+  /*
+  transform:rotate(180deg);
+  transform:scale(1.5);
+  transform:skew(10deg);
+  transform:translateX(30px);
+  */
+  transition: transform 500ms ease-out;
+}
+
+.galeria-col img:hover {
+  transform:translateX(30px);
+  transform:skew(10deg);
+  transform:rotate(180deg);
+  transform:scale(1.5);
+  transform-origin: 0 0;
 }
 
 .button {

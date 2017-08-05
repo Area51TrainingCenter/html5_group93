@@ -55,6 +55,22 @@ section h2 {
   color: white;
   text-decoration: none;
   font-size: 1.8em;
+  /*
+  transition-property:background;
+  transition-duration:2s;
+  transition-delay:1s;
+  transition-timing-function:ease-in-out;
+  transition-timing-function: cubic-bezier(.02,1.06,1,-0.07);
+  */
+  transition:background 2s 200ms ease-in-out, color 2s 500ms ease-in-out, border-radius 1s 200ms ease-in-out;
+  
+  transition: all 2s 200ms ease-in-out;
+}
+
+.caja.botones a:hover {
+  background: purple;
+  color: black;
+  border-radius: 100px;
 }
 
 /* Caja */
@@ -63,6 +79,12 @@ section h2 {
   width: 300px;
   height: 300px;
   background: #65DCB4;
+  transition-property: width;
+  transition-duration: 2s;
+}
+
+.cajas:hover {
+  width: 500px;
 }
 
 /* Galeria */
@@ -96,8 +118,21 @@ section h2 {
   width: 100%;
 }
 
+.galeria-col figure {
+  position: relative;
+  overflow: hidden;
+}
+
+.galeria-col figure:hover figcaption {
+  bottom: 0; 
+}
+
 .galeria-col figcaption {
   background-color: rgba(0,0,0,0.5);
+  position:absolute;
+  bottom:-50px;
+  width: 100%;
+  transition:bottom 2s ease-in-out;
 }
 
 .redes-sociales li{

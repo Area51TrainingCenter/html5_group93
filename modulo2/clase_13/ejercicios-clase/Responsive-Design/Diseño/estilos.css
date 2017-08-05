@@ -1,3 +1,5 @@
+/*  objetvo / contexto * 100 */
+
 * {
   margin: 0;
   padding: 0;
@@ -30,7 +32,7 @@ header {
 }
 
 header h1 {
-  width: 150px; 
+  width: 150px; /* 12.5% */
   float: left;
   margin-left: 24px; 
 }
