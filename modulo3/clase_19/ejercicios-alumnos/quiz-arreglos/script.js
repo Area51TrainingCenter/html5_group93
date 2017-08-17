@@ -9,25 +9,33 @@
 
 var respuestasCorrectas = 0;
 
- var respuesta1 = prompt('pregunta 1');
- var respuesta2 = prompt('pregunta 2');
- var respuesta3 = prompt('pregunta 3');
- var respuesta4 = prompt('pregunta 4');
- var respuesta5 = prompt('pregunta 5');
+var qa = [
+  ['Pregunta 1', 'Respuesta 1'],
+  ['Pregunta 2', 'Respuesta 2'],
+  ['Pregunta 3', 'Respuesta 3'],
+  ['Pregunta 4', 'Respuesta 4'],
+  ['Pregunta 5', 'Respuesta 5']
+]
 
-if(respuesta1 === 'blah') {
+ var respuesta1 = prompt(qa[0][0]);
+ var respuesta2 = prompt(qa[1][0]);
+ var respuesta3 = prompt(qa[2][0]);
+ var respuesta4 = prompt(qa[3][0]);
+ var respuesta5 = prompt(qa[4][0]);
+
+if(respuesta1 === qa[0][1]) {
   respuestasCorrectas = respuestasCorrectas + 1;
 }
-if(respuesta2 === 'bleh') {
+if(respuesta2 === qa[1][1]) {
   respuestasCorrectas = respuestasCorrectas + 1;
 }
-if(respuesta3 === 'blih') {
+if(respuesta3 === qa[2][1]) {
   respuestasCorrectas = respuestasCorrectas + 1;
 }
-if(respuesta4 === 'bloh') {
+if(respuesta4 === qa[3][1]) {
   respuestasCorrectas = respuestasCorrectas + 1;
 }
-if(respuesta5 === 'bluh') {
+if(respuesta5 === qa[4][1]) {
   respuestasCorrectas = respuestasCorrectas + 1;
 }
 
