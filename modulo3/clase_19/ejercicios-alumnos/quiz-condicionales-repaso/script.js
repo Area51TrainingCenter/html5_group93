@@ -13,3 +13,41 @@
 */
 
 
+var respuestasCorrectas = 0;
+
+
+var pregunta1 = prompt("pregunta1");
+var pregunta2 = prompt("pregunta2");
+var pregunta3 = prompt("pregunta3");
+var pregunta4 = prompt("pregunta4");
+var pregunta5 = prompt("pregunta5");
+
+if(pregunta1 === 'blah'){
+	respuestasCorrectas = respuestasCorrectas + 1;
+	//respuestas += 1;
+}
+
+if(pregunta2 === 'bleh'){
+	respuestasCorrectas = respuestasCorrectas + 1;
+}
+
+if(pregunta3 === 'blih'){
+	respuestasCorrectas = respuestasCorrectas + 1;
+}
+
+if(pregunta4 === 'bloh'){
+	respuestasCorrectas = respuestasCorrectas + 1;
+}
+
+if(pregunta5 === 'bluh'){
+	respuestasCorrectas = respuestasCorrectas + 1;
+}
+
+
+if(respuestasCorrectas === 5){
+	document.write('Has ganado la corona de oro');
+}else if (respuestasCorrectas === 3){
+	document.write('Has ganado la corona de plata');
+}else if(respuestasCorrectas < 3) {
+	document.write("Has perdido");
+}
