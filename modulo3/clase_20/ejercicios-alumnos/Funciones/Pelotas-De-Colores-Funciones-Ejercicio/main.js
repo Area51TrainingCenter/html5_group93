@@ -15,25 +15,22 @@ document.write(divColor);
 
 */
 
-var divColor = '';
-var colorRGB;
+//var divColor = "";
+//var colorRGB;
 
 function randomRGB() {
- return Math.floor(Math.random() * 256 ) + 1; 
+  return Math.floor(Math.random() * 256) + 1;
 }
 
 function randomColor() {
-  var color = 'rgb(' + randomRGB() + ',' + randomRGB() + ',' + randomRGB() + ');';
+  var color =
+    "rgb(" + randomRGB() + "," + randomRGB() + "," + randomRGB() + ");";
   return color;
 }
 
-function print(message) {
-  document.write(message);
-}
-
 for (var i = 0; i < 100; i += 1) {
-  colorRGB = randomColor();
-  divColor += '<div class="colores" style="background-color:' + colorRGB + '"></div>';
+  var colorRGB = randomColor();
+  var divColor =
+    '<div class="colores" style="background-color:' + colorRGB + '"></div>';
+  print(divColor);
 }
-
-print(divColor);

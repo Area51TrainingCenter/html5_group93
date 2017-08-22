@@ -46,7 +46,6 @@ if(respuestasCorrectas === 5){
 }else if(respuestasCorrectas < 3){
   document.write('Perdiste :(');
 }
-<<<<<<< HEAD
 
 */
 
@@ -90,5 +89,3 @@ if(respuestasCorrectas === 5){
 }else if(respuestasCorrectas < 3){
   document.write('Perdiste :(');
 }
-=======
->>>>>>> 4fef5674ad1a2b1c47b780a4bcf01d6cc9acf042
